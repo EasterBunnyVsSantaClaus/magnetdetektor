@@ -13,6 +13,8 @@
 		8B77223419D77AB8004E7573 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B77223319D77AB8004E7573 /* Images.xcassets */; };
 		8B77223719D77AB8004E7573 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B77223519D77AB8004E7573 /* LaunchScreen.xib */; };
 		8B77224319D77AB8004E7573 /* magnetdetektorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B77224219D77AB8004E7573 /* magnetdetektorTests.swift */; };
+		8B77224E19D7893F004E7573 /* infos in Resources */ = {isa = PBXBuildFile; fileRef = 8B77224C19D7893F004E7573 /* infos */; };
+		8B77224F19D7893F004E7573 /* TemplateIcon2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B77224D19D7893F004E7573 /* TemplateIcon2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,7 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		8B77222719D77AB8004E7573 /* magnetdetektor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = magnetdetektor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B77222719D77AB8004E7573 /* magnetic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = magnetic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B77222B19D77AB8004E7573 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8B77222C19D77AB8004E7573 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8B77222E19D77AB8004E7573 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +38,8 @@
 		8B77223C19D77AB8004E7573 /* magnetdetektorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = magnetdetektorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B77224119D77AB8004E7573 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8B77224219D77AB8004E7573 /* magnetdetektorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = magnetdetektorTests.swift; sourceTree = "<group>"; };
+		8B77224C19D7893F004E7573 /* infos */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = infos; sourceTree = "<group>"; };
+		8B77224D19D7893F004E7573 /* TemplateIcon2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TemplateIcon2x.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,7 +72,7 @@
 		8B77222819D77AB8004E7573 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8B77222719D77AB8004E7573 /* magnetdetektor.app */,
+				8B77222719D77AB8004E7573 /* magnetic.app */,
 				8B77223C19D77AB8004E7573 /* magnetdetektorTests.xctest */,
 			);
 			name = Products;
@@ -83,6 +87,8 @@
 				8B77223319D77AB8004E7573 /* Images.xcassets */,
 				8B77223519D77AB8004E7573 /* LaunchScreen.xib */,
 				8B77222A19D77AB8004E7573 /* Supporting Files */,
+				8B77224C19D7893F004E7573 /* infos */,
+				8B77224D19D7893F004E7573 /* TemplateIcon2x.png */,
 			);
 			path = magnetdetektor;
 			sourceTree = "<group>";
@@ -129,7 +135,7 @@
 			);
 			name = magnetdetektor;
 			productName = magnetdetektor;
-			productReference = 8B77222719D77AB8004E7573 /* magnetdetektor.app */;
+			productReference = 8B77222719D77AB8004E7573 /* magnetic.app */;
 			productType = "com.apple.product-type.application";
 		};
 		8B77223B19D77AB8004E7573 /* magnetdetektorTests */ = {
@@ -192,6 +198,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B77224F19D7893F004E7573 /* TemplateIcon2x.png in Resources */,
+				8B77224E19D7893F004E7573 /* infos in Resources */,
 				8B77223219D77AB8004E7573 /* Main.storyboard in Resources */,
 				8B77223719D77AB8004E7573 /* LaunchScreen.xib in Resources */,
 				8B77223419D77AB8004E7573 /* Images.xcassets in Resources */,
@@ -338,7 +346,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = magnetdetektor/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = magnetic;
 			};
 			name = Debug;
 		};
@@ -348,7 +356,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = magnetdetektor/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = magnetic;
 			};
 			name = Release;
 		};
