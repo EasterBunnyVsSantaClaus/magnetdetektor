@@ -18,6 +18,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
     @IBOutlet weak var labelStatusText: UILabel!
     @IBOutlet weak var labelStatusZahl: UILabel!
     @IBOutlet var progressStatusBar: UIProgressView!
+    @IBOutlet weak var labelSolution: UILabel!
     
 
     override func viewDidLoad() {
@@ -51,7 +52,9 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
         labelStatusZahl.text = "0.000"
     }
     @IBAction func logSolution(sender: AnyObject) {
-        solutionLogger.logSolutionFromQRCode("Metalldetektor")
+        
+        solutionLogger.logSolutionFromQRCode("Metalldetektor")        
+        labelSolution.text = solutionLogger.test
     }
 }
 
