@@ -12,6 +12,7 @@ import CoreLocation
 class ViewController: UIViewController, CLLocationManagerDelegate {
     
     let locationManager = CLLocationManager()
+    var solutionLogger: SolutionLogger!
     
     //Labels & ProgressBar initialisieren bzw. definieren
     @IBOutlet weak var labelStatusText: UILabel!
@@ -21,6 +22,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        solutionLogger = SolutionLogger(viewController: self)
         locationManager.delegate = self
         locationManager.startUpdatingHeading()
     }
@@ -41,12 +43,15 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
         } else if magnitudeRatio > 0.9 {
             labelStatusText.text = "Magnet gefunden :)"
         } else {
-            labelStatusText.text = "Keinen Magnet gefunden :("
+            labelStatusText.text = "Kein Magnet gefunden :("
         }
     }
     
     @IBAction func buttonReset(sender: AnyObject) {
         labelStatusZahl.text = "0.000"
+    }
+    @IBAction func logSolution(sender: AnyObject) {
+        solutionLogger.logSolutionFromQRCode("Metalldetektor")
     }
 }
 

@@ -17,7 +17,7 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Kein Magnet gefunden :(" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kel-pd-iZx">
-                                <rect key="frame" x="66" y="101" width="188" height="21"/>
+                                <rect key="frame" x="59" y="105" width="203" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
@@ -44,6 +44,15 @@
                                 </state>
                                 <connections>
                                     <action selector="buttonReset:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="G3V-6X-nfm"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MER-8n-uMp">
+                                <rect key="frame" x="108" y="386" width="105" height="30"/>
+                                <state key="normal" title="Scan QR-Code">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="logSolution:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="XWY-bQ-0Ze"/>
                                 </connections>
                             </button>
                         </subviews>

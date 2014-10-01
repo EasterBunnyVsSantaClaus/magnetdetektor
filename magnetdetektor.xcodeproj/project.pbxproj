@@ -15,6 +15,7 @@
 		8B77224319D77AB8004E7573 /* magnetdetektorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B77224219D77AB8004E7573 /* magnetdetektorTests.swift */; };
 		8B77224E19D7893F004E7573 /* infos in Resources */ = {isa = PBXBuildFile; fileRef = 8B77224C19D7893F004E7573 /* infos */; };
 		8B77224F19D7893F004E7573 /* TemplateIcon2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B77224D19D7893F004E7573 /* TemplateIcon2x.png */; };
+		8B91375019DBE40200215B47 /* SolutionLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B91374F19DBE40200215B47 /* SolutionLogger.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		8B77224219D77AB8004E7573 /* magnetdetektorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = magnetdetektorTests.swift; sourceTree = "<group>"; };
 		8B77224C19D7893F004E7573 /* infos */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = infos; sourceTree = "<group>"; };
 		8B77224D19D7893F004E7573 /* TemplateIcon2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TemplateIcon2x.png; sourceTree = "<group>"; };
+		8B91374F19DBE40200215B47 /* SolutionLogger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SolutionLogger.swift; path = ../../../SolutionLogger.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 		8B77222919D77AB8004E7573 /* magnetdetektor */ = {
 			isa = PBXGroup;
 			children = (
+				8B91374F19DBE40200215B47 /* SolutionLogger.swift */,
 				8B77222C19D77AB8004E7573 /* AppDelegate.swift */,
 				8B77222E19D77AB8004E7573 /* ViewController.swift */,
 				8B77223019D77AB8004E7573 /* Main.storyboard */,
@@ -221,6 +224,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8B77222F19D77AB8004E7573 /* ViewController.swift in Sources */,
+				8B91375019DBE40200215B47 /* SolutionLogger.swift in Sources */,
 				8B77222D19D77AB8004E7573 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -413,6 +417,7 @@
 				8B77224819D77AB8004E7573 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8B77224919D77AB8004E7573 /* Build configuration list for PBXNativeTarget "magnetdetektorTests" */ = {
 			isa = XCConfigurationList;
@@ -421,6 +426,7 @@
 				8B77224B19D77AB8004E7573 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

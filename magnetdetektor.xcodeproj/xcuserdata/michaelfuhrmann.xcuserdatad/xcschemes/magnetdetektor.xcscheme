@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "8B77222619D77AB8004E7573"
-               BuildableName = "magnetdetektor.app"
+               BuildableName = "magnetic.app"
                BlueprintName = "magnetdetektor"
                ReferencedContainer = "container:magnetdetektor.xcodeproj">
             </BuildableReference>
@@ -57,7 +57,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8B77222619D77AB8004E7573"
-            BuildableName = "magnetdetektor.app"
+            BuildableName = "magnetic.app"
             BlueprintName = "magnetdetektor"
             ReferencedContainer = "container:magnetdetektor.xcodeproj">
          </BuildableReference>
@@ -76,7 +76,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8B77222619D77AB8004E7573"
-            BuildableName = "magnetdetektor.app"
+            BuildableName = "magnetic.app"
             BlueprintName = "magnetdetektor"
             ReferencedContainer = "container:magnetdetektor.xcodeproj">
          </BuildableReference>
@@ -94,7 +94,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8B77222619D77AB8004E7573"
-            BuildableName = "magnetdetektor.app"
+            BuildableName = "magnetic.app"
             BlueprintName = "magnetdetektor"
             ReferencedContainer = "container:magnetdetektor.xcodeproj">
          </BuildableReference>
